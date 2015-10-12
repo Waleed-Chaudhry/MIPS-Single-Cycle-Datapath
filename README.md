@@ -1,10 +1,10 @@
 # MIPS Single Cycle Datapath
-The processor implements R Type, I Type and Branching Instructions  
+
+Implements R Type, I Type and Branching Instructions  
 The following programs were used to test out the correct operation of the processor  
 
 These v files can be compiled and tested using a Verilog compiler such as Icarus Verilog.   
 Installation instructions are available here:  
-
 http://www.swarthmore.edu/NatSci/mzucker1/e15_f2014/iverilog.html  
 
 Test Program  
