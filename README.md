@@ -1,4 +1,4 @@
-# MIPS-Single-Cycle-Datapath
+# MIPS Single Cycle Datapath
 The processor implements R Type, I Type and Branching Instructions  
 The following programs were used to test out the correct operation of the processor  
 
