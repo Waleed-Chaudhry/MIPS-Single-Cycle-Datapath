@@ -13,9 +13,9 @@ This program adds the numbers between A and B, inclusive, where A originally res
 
 The program is:  
 sub r0,r0,r0 ; set reg[0] to 0, use as base  
-lw r1,0(r0) ; reg[1] <- mem[0] (= 1)  
-lw r2,4(r0) ; reg[2] <- mem[4] (= A)  
-lw r3,8(r0) ; reg[3] <- mem[8] (= B)  
+lw r1,0(r0) ; reg[1] <- mem[0]   
+lw r2,4(r0) ; reg[2] <- mem[4]    
+lw r3,8(r0) ; reg[3] <- mem[8]    
 add r4,r6,r6 ; reg[6] <- reg[6] keeps track of the overall sum  
 sub r4,r4,r4 ; reg[4] <- 0, Resets r4  
 add r4,r2,r4 ; reg[4]+ = A  
@@ -36,6 +36,7 @@ Initial Register Configuration
 All Registers were set to 0  
 
 Result  
+  
 The program prints out the correct register state and memory configuration of the program at every clock cycle   
 The correct final value of x37 ends up at data memory location 3  
 The final states of the register and main memory have been saved in Output.txt  
