@@ -1,6 +1,4 @@
 # MIPS-Single-Cycle-Datapath
-This is the Readme file for the MIPS Single Cycle Processor   
-
 The processor implements R Type, I Type and Branching Instructions  
 The following programs were used to test out the correct operation of the processor  
 
